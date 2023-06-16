@@ -186,7 +186,7 @@ public class ApiConfig {
                             callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("sorry,努力加载了哦，加载失败了");
+                            callback.error("🌹sorry,努力加载了哦，但加载失败了💔");
                         }
                     }
 
@@ -202,7 +202,7 @@ public class ApiConfig {
                                 th.printStackTrace();
                             }
                         }
-                        callback.error("sorry,努力获取了哦，获取失败了\n" + (response.getException() != null ? response.getException().getMessage() : ""));
+                        callback.error("🌹sorry,努力获取了哦，但获取失败了💔\n" + (response.getException() != null ? response.getException().getMessage() : ""));
                     }
 
                     public String convertResponse(okhttp3.Response response) throws Throwable {
