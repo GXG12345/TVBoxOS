@@ -183,7 +183,7 @@ public class ApiConfig {
                             } catch (Throwable th) {
                                 th.printStackTrace();
                             }
-                            callback.success("yes,加载成功，尽情追剧吧");
+                            callback.success();
                         } catch (Throwable th) {
                             th.printStackTrace();
                             callback.error("sorry,努力加载了哦，加载失败了");
