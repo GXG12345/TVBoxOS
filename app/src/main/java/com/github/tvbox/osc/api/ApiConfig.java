@@ -183,10 +183,10 @@ public class ApiConfig {
                             } catch (Throwable th) {
                                 th.printStackTrace();
                             }
-                            callback.success();
+                            callback.success("🌹yes,加载成功，尽情追剧吧🌹");
                         } catch (Throwable th) {
                             th.printStackTrace();
-                            callback.error("解析配置失败");
+                            callback.error("🌹sorry,努力加载了哦，加载失败了💔");
                         }
                     }
 
@@ -202,7 +202,7 @@ public class ApiConfig {
                                 th.printStackTrace();
                             }
                         }
-                        callback.error("拉取配置失败\n" + (response.getException() != null ? response.getException().getMessage() : ""));
+                        callback.error("🌹sorry,努力获取了哦，获取失败了💔\n" + (response.getException() != null ? response.getException().getMessage() : ""));
                     }
 
                     public String convertResponse(okhttp3.Response response) throws Throwable {
