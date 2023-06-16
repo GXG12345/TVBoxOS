@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:lineSpacingExtra="@dimen/ts_50"
         android:lineSpacingMultiplier="0"
-        android:text="本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC\nhttps://github.com/q215613905/TVBoxOS"
+        android:text="本软件仅供小戈家庭内部交流使用，所有内容来自于网络他人分享，不保证体验，同时请不要传播，如收到侵权通知，请于24小时内删除本软件，谢谢。🌹🌹"
         android:textColor="@color/color_CC000000"
         android:textSize="@dimen/ts_24" />
 
