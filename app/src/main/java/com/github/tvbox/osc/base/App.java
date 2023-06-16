@@ -65,7 +65,7 @@ public class App extends MultiDexApplication {
             Hawk.put(HawkConfig.SEARCH_VIEW, 2);        
         }
         if (!Hawk.contains(HawkConfig.HOME_REC_STYLE)) {  
-            Hawk.put(HawkConfig.HOME_REC_STYLE,, true);        
+            Hawk.put(HawkConfig.HOME_REC_STYLE, true);        
         }
         if (!Hawk.contains(HawkConfig.FAST_SEARCH_MODE)) {  
             Hawk.put(HawkConfig.FAST_SEARCH_MODE, true);        
